@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace Motivation.ViewModel
 {
-	class MainViewModel : BaseViewModel, IMainViewModel
+	public class MainViewModel : BaseViewModel, IMainViewModel
 	{
 		private readonly ITask _task;
 		private int _frequency = 1;

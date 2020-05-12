@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Motivation.Model
 {
-	class Task : ITask
+	public class Task : ITask
 	{
 		private int _countToday; // TODO: Create a daily cleaning method
 		private int _dailyMin;

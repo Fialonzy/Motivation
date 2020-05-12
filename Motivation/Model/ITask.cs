@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Motivation.Model
 {
-	interface ITask
+	public interface ITask
 	{
 		IEnumerable<int> GetChecoutMonth();
 

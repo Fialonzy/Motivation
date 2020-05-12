@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Motivation.Model
 {
-	class ConfigurationTask : IConfigurationTask
+	public class ConfigurationTask : IConfigurationTask
 	{
 		private readonly string _description;
 		private readonly int _count;

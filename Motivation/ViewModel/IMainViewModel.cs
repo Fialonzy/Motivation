@@ -5,7 +5,7 @@ using System.Windows.Input;
 
 namespace Motivation.ViewModel
 {
-	interface IMainViewModel
+	public interface IMainViewModel
 	{
 		int Frequency { get; set; }
 
